@@ -1,0 +1,12 @@
+// streamJSON是从服务端拿回的
+//
+// 从服务端拿回的streamJSON结构如下：
+   @{@"id": @"stream_id",
+      @"title": @"stream_title",
+      @"hub": @"hub_id",
+      @"publishKey": @"publish_key",
+      @"publishSecurity": @"dynamic", // or static
+      @"disabled": @(NO),
+      @"profiles": @[@"480p", @"720p"],    // or empty Array []
+      @"hosts": @{            ...
+     }
